@@ -1,4 +1,4 @@
-module github.com/Lukiya/jobgo/v2
+module github.com/Lukiya/jobgo
 
 go 1.19
 
