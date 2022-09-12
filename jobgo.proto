@@ -7,6 +7,9 @@ option go_package = "github.com/Lukiya/jobgo";
 message Job {
     string ID = 1;
     string Name = 2;
+    string Cron = 3;
+    string Func = 4;
+    string Status = 5;
     int64 UpdatedOnUtc = 6;
     int64 CreatedOnUtc = 7;
 }
