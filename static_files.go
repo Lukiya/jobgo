@@ -5,4 +5,4 @@ import (
 )
 
 //go:embed wwwroot
-var StaticFiles embed.FS
+var staticFiles embed.FS
